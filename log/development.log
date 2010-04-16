@@ -306,3 +306,99 @@ Rendered layouts/_stylesheets (2.2ms)
 Rendered layouts/_header (1.7ms)
 Rendered layouts/_footer (0.6ms)
 Completed in 17ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-16 12:13:05) [GET]
+
+ActionController::RoutingError (No route matches "/pages/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-16 14:34:29) [GET]
+
+ActionController::RoutingError (No route matches "/pages/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-16 14:34:31) [GET]
+
+ActionController::RoutingError (No route matches "/pages/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-16 14:37:55) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (4.1ms)
+Rendered layouts/_header (5.1ms)
+Rendered layouts/_footer (2.5ms)
+Completed in 254ms (View: 248, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-16 14:44:09) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (4.3ms)
+Rendered layouts/_header (4.2ms)
+Rendered layouts/_footer (2.7ms)
+Completed in 146ms (View: 140, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-04-16 14:44:13) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (2.4ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 34ms (View: 28, DB: 0) | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-04-16 14:44:20) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (2.2ms)
+Rendered layouts/_header (3.1ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 36ms (View: 30, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-16 14:44:27) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (3.3ms)
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.9ms)
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-16 14:44:28) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.2ms)
+Rendered layouts/_header (2.6ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 18ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-04-16 14:44:30) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (2.6ms)
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 18ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-16 14:44:31) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (2.2ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
