@@ -571,3 +571,30 @@ Rendered layouts/_stylesheets (2.2ms)
 Rendered layouts/_header (2.2ms)
 Rendered layouts/_footer (0.8ms)
 Completed in 18ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-19 11:48:20) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (4.5ms)
+Rendered layouts/_header (5.3ms)
+Rendered layouts/_footer (2.8ms)
+Completed in 164ms (View: 158, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-19 11:48:22) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.2ms)
+Rendered layouts/_header (2.2ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-19 11:48:24) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (2.4ms)
+Rendered layouts/_header (2.1ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 44ms (View: 38, DB: 0) | 200 OK [http://0.0.0.0/signup]
