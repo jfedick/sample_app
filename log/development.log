@@ -598,3 +598,72 @@ Rendered layouts/_stylesheets (2.4ms)
 Rendered layouts/_header (2.1ms)
 Rendered layouts/_footer (0.8ms)
 Completed in 44ms (View: 38, DB: 0) | 200 OK [http://0.0.0.0/signup]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-19 14:57:47) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (29.1ms)
+Rendered layouts/_header (4.3ms)
+Rendered layouts/_footer (21.4ms)
+Completed in 249ms (View: 243, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-19 14:57:54) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.7ms)
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (0.9ms)
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-19 14:57:56) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (2.4ms)
+Rendered layouts/_header (2.3ms)
+Rendered layouts/_footer (1.1ms)
+Completed in 53ms (View: 47, DB: 0) | 200 OK [http://0.0.0.0/signup]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-19 14:58:16) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.3ms)
+Rendered layouts/_header (4.7ms)
+Rendered layouts/_footer (0.7ms)
+Completed in 35ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-19 14:58:54) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (4.3ms)
+Rendered layouts/_header (4.5ms)
+Rendered layouts/_footer (2.6ms)
+Completed in 149ms (View: 144, DB: 0) | 200 OK [http://0.0.0.0/]
+  [4;36;1mSQL (1.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100419191450)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (77.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100419191450')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.9ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT version FROM schema_migrations[0m
